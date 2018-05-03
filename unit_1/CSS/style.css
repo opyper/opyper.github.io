@@ -1,11 +1,47 @@
-h1,p,li {
-    color: white;
+body{
+	background: url("https://www.istockphoto.com/gb/vector/seafood-outlines-collection-gm698087988-129438829");
+}
+h1 {
+    color: red;
 	font-family: Arial;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 60px;
+	text-align: center;
+	padding-top: 70px;
+    padding-bottom: 70px; 
+}
+h2 {
+	color:#FFFFFF;
+	font-family: Arial;
+	text-align: center;
+}
+h3{
+	color:red;
+	font-family: Arial;
+	text-align: left;
+}
+p {
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 15px;
+	text-align: left;
+	color: red;
+}
+div {
+	width:350px;
+	height:350px;
+	border: transparent;
+	display: inline-block;
+	margin:20px;
+	background: rgb(232,156,186);
+	padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    vertical-align: top;
 }
 a {
 	color: #d9d9d9;
 }
 
-body {
-	background-color: #c879b2;
-}
