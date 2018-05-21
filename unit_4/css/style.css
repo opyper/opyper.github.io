@@ -1,32 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Source+Sans+Pro:200,200i,300i,400,400i,600,600i');
 body{
-	margin-top: 0;
 	font-size: 20px;
-	padding:0px;
-	margin-right: 0px;
-	margin-left: 0px;
+	padding: 0;
+	margin: 0;
 }
 header {
-	height: 400px;
+	height: 480px;
 	width: 100%;
 	background: url("../images/cookingpic.jpg");
-	/*background-size: cover;*/
-	margin-bottom: 0;
-	margin-right: 0;
+	margin-top: 0;
+}
+#title {
+	/*margin-left: auto;
+	margin-right: auto;*/
+	padding-top: 5px;
 }
 h1 {
-	background: rgba(232,161,156,.5);
-	width: 30%;
-    color:white;
+	background: rgba(232,161,156,.7);
+    color: white;
     font-family: 'Source Sans Pro', sans-serif;
 	text-transform: uppercase;
 	font-size: 4em;
 	font-weight: 200;
+	letter-spacing: 0.15em;
 	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
-	padding-top:5px;
-	margin-top:10px;
+	width: 30%;
+	margin:15px auto 20px auto;
 }
 #slogan {
 	font-size: 1.5em;
@@ -36,48 +35,42 @@ h1 {
 	font-style: italic;
 	color: white;
 	background: rgba(232,161,156,.65);
-	width: 40%;
-	margin-right: auto;
-	margin-left: auto;
-
+	width: 30%;
+	margin:10px auto 20px auto;
+}
+nav {
+	width: 100%;
 }
 .nav {
-	background: white;
+	background: transparent;
 	display: inline-block;
-	width:28.5%;
+	width:33.05%;
 	text-align: center;
-	margin-left:2%;
-	margin-right: 2%;
+	margin-left:0;
+	margin-right: 0;
 	text-align: center;
 }
 .nav:hover {
-	background-color:rgba(232,161,156,.65);
+	background-color:rgb(232,161,156,.65);
 	border-top: 4px;
 
 }
 hr {
-	margin-top: 0;
+	margin-top:0;
 	width:70px;
 	height: 6px;
 	border:transparent;
 	background-color:rgb(209,97,122);
 }
-#recipes {
+.topbuttons {
 	height: 70px;
 	width: 70px;
-}
-#blogposts {
-	height:70px;
-	width:70px;
-}
-#about {
-	height:70px;
-	width:70px;
 }
 h2 {
 	color:red;
 	font-family: Source Sans Pro, sans-serif;
 	font-weight: 400i;
+	letter-spacing: 0.15em;
 	text-align: center;
 	margin-top: 0px;
 }
@@ -94,6 +87,7 @@ p {
 	line-height: 2em;
 	font-weight: normal;
 	font-size: 15px;
+	letter-spacing: 0.04em;
 	text-align: left;
 	color: red;
 	padding-left: 2em;
