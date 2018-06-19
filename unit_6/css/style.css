@@ -22,8 +22,9 @@ h1 {
 	font-weight: 200;
 	letter-spacing: 0.15em;
 	text-align: center;
-	width: 30%;
+	width: 40%;
 	margin:15px auto 20px auto;
+	overflow:visible;
 }
 #slogan {
 	font-size: 1.5em;
@@ -37,6 +38,8 @@ h1 {
 }
 nav {
 	margin-bottom: 3em;
+	margin-right: auto;
+	margin-left:auto;
 }
 .nav {
 	display: inline-block;
@@ -44,10 +47,9 @@ nav {
 	background: transparent;
 	width:450px;
 	height: 100px;
-	margin:0;
-	text-align: center;
 	padding-bottom: 10px;
 	padding-top: 10px;
+	margin: auto;
 }
 .nav:hover {
 	background-color:rgba(232,161,156,.7);
@@ -63,10 +65,9 @@ nav a .topbuttons {
 
 nav a:hover > .topbuttons {
 	display: inline-block;
-	ali
+	padding-top: 20px;
 }
 
-}
 hr {
 	margin: 0;
 	width:70px;
@@ -126,6 +127,7 @@ p {
  	height:300px;
     width: 40%;
     padding:15px;
+    border-right: 3px solid red;
 }
 button {
  	background-color: rgba(232,161,156,.7);
