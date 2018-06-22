@@ -3,9 +3,9 @@ body{
 	font-size: 20px;
 	padding: 0;
 	margin: 0;
+	width: 100%;
 }
 header {
-	/*height: 480px;*/
 	height: 38%;
 	width: 100%;
 	background: url("../images/cookingpic.jpg");
@@ -33,12 +33,9 @@ h1 {
 	font-size: 1.5em;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
-	/*text-align: center;*/
 	color: white;
 	background: rgba(232,161,156,.65);
 	padding:0.25em;
-	/*width: 30%;
-	margin:.5em auto 1em auto;*/
 }
 nav {
 	margin-bottom: 3em;
