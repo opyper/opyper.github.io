@@ -5,13 +5,20 @@ body{
 	margin: 0;
 }
 header {
-	height: 480px;
+	/*height: 480px;*/
+	height: 38%;
 	width: 100%;
 	background: url("../images/cookingpic.jpg");
-	margin-top: 0;
+/*	margin-top: 0;*/
 }
-#title {
-	padding-top: 5px;
+.title {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	width:20em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 h1 {
 	background: rgba(232,161,156,.7);
@@ -21,49 +28,45 @@ h1 {
 	font-size: 4em;
 	font-weight: 200;
 	letter-spacing: 0.15em;
-	text-align: center;
-	width: 30%;
-	margin:15px auto 20px auto;
 }
 #slogan {
 	font-size: 1.5em;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
-	text-align: center;
+	/*text-align: center;*/
 	color: white;
 	background: rgba(232,161,156,.65);
-	width: 30%;
-	margin:10px auto 20px auto;
+	padding:0.25em;
+	/*width: 30%;
+	margin:.5em auto 1em auto;*/
 }
 nav {
 	margin-bottom: 3em;
 }
 .nav {
-	display: inline-block;
+	float:left;
 	text-decoration: none;
 	background: transparent;
-	width:450px;
+	width:33.33%;
 	height: 100px;
 	margin:0;
 	text-align: center;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding-bottom: .5em;
+	padding-top: .5em;
 }
 .nav:hover {
 	background-color:rgba(232,161,156,.7);
 	border-top: 4px;
-
 }
 
 nav a .topbuttons {
-	height:70px;
-	position: absolute;
+	height:70%;
 	display:none;
+	padding-top: .5em;
 }
 
 nav a:hover > .topbuttons {
 	display: inline-block;
-	ali
 }
 
 }
@@ -81,7 +84,7 @@ h2, a {
 	font-family: Source Sans Pro, sans-serif;
 	font-weight: 400i;
 	font-size: 24px;
-	letter-spacing: 0.15em;
+	letter-spacing: 0.12em;
 	text-align: center;
 }
 #blogtitle {
