@@ -108,35 +108,12 @@ p {
 	color: red;
 
 }
-#wrapper {
-	width:1300px;
-	height:400px;
-	margin: 10px;
-	background-color:#ffffff;
-}
-#right {
-	width: 60%;
-	height:300px;
-	display: inline-block;
-	vertical-align: top; 
-    width: 52%;
-    background-color: transparent;
-    padding:15px;
-}
-#left {
- 	display: inline-block;
- 	width: 30%;
- 	height:300px;
-    width: 40%;
-    padding:15px;
-}
 button {
  	background-color: rgba(232,161,156,.7);
  	border:none;
  	padding top: 2px;
 
 }
-
 footer {
 	height: 500px
 	width: 100%;
