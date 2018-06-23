@@ -5,7 +5,6 @@ body{
 	margin: 0;
 }
 header {
-	height: 20em;
 	width: 100%;
 	background: url("../images/cookingpic.jpg");
 }
@@ -55,7 +54,7 @@ nav {
 }
 
 nav a .topbuttons {
-	height:70%;
+	height: 3em;
 	display:none;
 	padding-top: .5em;
 }
@@ -105,16 +104,13 @@ p {
 	display: inline-block;
 	vertical-align: top; 
     background-color: transparent;
-    /*background-color: yellow;*/
 }
 #left {
  	display: inline-block;
     width: 45%;
-    /*background-color: grey;*/
 }
 .blog_body {
 	margin: 1em;
-	/*background-color: grey;*/
 	border-left: .1em solid #979595;
 	padding-left: .5em;
 	padding-bottom:.5em;
@@ -162,6 +158,9 @@ footer {
  	}
  }
  @media only screen and (max-width: 700px) {
+ 	h1 {
+ 		font-size: 3.4em;
+ 	}
  	
  	#wrapper, #right, #left {
  		display: block;
@@ -174,10 +173,7 @@ footer {
  		float:none;
  		width:auto;
  	}
- 	.nav {
- 	/*	font-size: 1em;*/
- 	}
-	nav a .topbuttons {
+ 	nav a .topbuttons {
 	display:visible;
 	display:inline-block;
 	height:2.5em;
