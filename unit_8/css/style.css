@@ -34,37 +34,17 @@ h1 {
 	background: rgba(232,161,156,.65);
 	padding:0.25em;
 }
-nav {
-	margin-bottom: 3em;
-}
 .nav {
 	float:left;
 	text-decoration: none;
 	background: transparent;
 	width:33.3333%;
 	height: 4.1em;
-	margin:0;
+	margin: 0;
+	margin-bottom: 1em;
 	text-align: center;
-	padding-bottom: 1em;
+	padding-bottom: .9em;
 	padding-top: .5em;
-	margin-bottom:.5em;
-}
-.nav:hover {
-	background-color:rgba(232,161,156,.7);
-}
-
-nav a .topbuttons {
-	height: 3em;
-	/*display:none;*/
-	display: inline-block;
-	padding-top: .5em;
-}
-
-/*nav a:hover > .topbuttons {
-	display: inline-block;
-}*/
-
-h2, a {
 	color:red;
 	font-family: Source Sans Pro, sans-serif;
 	font-weight: 400i;
@@ -73,10 +53,51 @@ h2, a {
 	text-align: center;
 	text-decoration:none;
 }
+.nav:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto;
+    width: 20%;
+    padding-top: 0px;
+    border-bottom: .7px solid rgba(151,149,149,.7); 
+}
+
+.nav:hover {
+	background-color:rgba(232,161,156,.7);
+}
+
+nav a .topbuttons {
+	height: 3em;
+	/*display:none;*/
+	display: inline-block;
+	padding-bottom: .2em;
+}
+
+/*nav a:hover > .topbuttons {
+	display: inline-block;
+}*/
+
+h2 {
+	color:red;
+	font-family: Source Sans Pro, sans-serif;
+	font-weight: 400i;
+	font-size: 1.1em;
+	letter-spacing: 0.07em;
+	text-align: center;
+	text-decoration: none;
+	padding-bottom: .5em;
+}
+
 .blogtitle {
+	color:red;
+	font-family: Source Sans Pro, sans-serif;
+	font-weight: 400i;
+	font-size: 1.1em;
+	letter-spacing: 0.07em;
+	text-align: center;
+	text-decoration:none;
 	text-align: left;
 	margin-bottom: 1em;
-	line-height: 1.3em;
 }
 
 h3 {
@@ -85,6 +106,22 @@ h3 {
 	text-align: left;
 	font-weight: 400i;
 }
+.button_links {
+ 	text-align: center;
+ 	font-size: 1em;
+ 	letter-spacing: 0.07em;
+ 	text-decoration: none;
+ 	font-family: Source Sans Pro, sans-serif;
+ 	font-weight: 400i;
+ 	padding: .7em;
+ 	color: red;
+ 	display: block;
+ 	width: 23%;
+ 	margin: 0;
+ 	background-color: rgba(232,161,156,.7);
+ 	margin-top: 1.3em;
+}
+
 p {
 	font-family: Merriweather, serif;
 	color: rgba(181,84,106,.5);
@@ -94,105 +131,116 @@ p {
 	letter-spacing: 0.04em;
 	text-align: left;
 	color: red;
-
 }
-#wrapper {
+.wrapper {
 	width:100%;
-	background-color:#ffffff;
-	padding:1em;
-}
-#right {
-	width: 55%;
 	display: inline-block;
-	vertical-align: top; 
-    background-color: transparent;
+	margin: 0 0 1.5em 0;
 }
 #left {
  	display: inline-block;
-    width: 40%;
+    width: 46%;
+    margin-top: 1em;
+    margin-right: 0;
+    padding-right: .5em;
+    border-right: .1em solid #979595;
+}
+.food_images {
+	display: inline-block;
+	margin-left: auto;
+    margin-right: 1em;
+    width: 100%
 }
 .blog_body {
-	margin: 1em;
-	border-left: .1em solid #979595;
+	vertical-align: top; 
+	display: inline-block;
+	width: 50%;
+	margin: 1em 0 2.5em 0;
 	padding-left: .5em;
-	padding-bottom:.5em;
+	padding-bottom: 0;
+
 }
-button {
- 	background-color: rgba(232,161,156,.7);
- 	border:none;
- 	font-size: 1em;
- 	padding: 0.6em;
- 	margin:1em;
- }
+
 footer {
 	width: 100%;
-	margin: 1em 0 0 0;
 	padding: 1em;
 	background-color: rgba(232,161,156,.7);
-
+	height: 4em;
 }
-
-.footer_section {
-	height:4em;
-	width:33.3333%;
-	display:block;
+#footer_section {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.5em;
+	width: 30%;
+	text-align: center;
 }
-
- #footer_text {
- 	text-align: center;
- 	font-size: .75em;
- 	padding-top: 1em;
+ .footer_text {
+ 	font-family: Source Sans Pro, sans-serif;
+ 	font-size: 1em;
  	letter-spacing: 0.01em;
  	text-decoration: none;
+ 	color: red;
+ 	padding: .2em;
  }
-
- @media only screen and (max-width: 1000px) {
+ @media only screen and (max-width: 1165px) {
+ 	.button_links {
+ 		margin-top: .9em;
+ 	}
+ 	#left {
+ 		padding-bottom: 1em;
+ 	}
+ 	.wrapper {
+ 		margin-bottom: 0;
+ 	}
+ }
+ @media only screen and (max-width: 1075px) {
  	body {
  		font-size: 18px;
  	}
- 	#footer_section {
- 		width: 80%;
- 		margin-left: auto;
- 		margin-right: auto;
+ 	.blog_body {
+ 		width: 60%;
  	}
+ 	#left {
+ 		width: 36%;
+ 		padding-bottom: 0;
+ 	}
+ 	.button_links {
+ 		padding: .5em;
+ 	}
+ }
+  @media only screen and (max-width: 1000px) {
  	#footer_text {
  		text-align: center;
  	}
+ 	#footer_section {
+		width: 70%;
+	}
  }
- @media only screen and (max-width: 700px) {
- 	h1 {
- 		font-size: 3.4em;
- 	}
- 	
- 	#wrapper, #right, #left {
- 		display: block;
- 		width:auto;
- 		margin:.1em;
- 		padding-top:1.2em;
- 	}
- 	nav {
- 		text-align: center;
- 		float:none;
- 		width:auto;
+ @media only screen and (max-width: 800px) {
+ 	#wrapper, #left {
+ 	display: block;
+ 	width:auto;
  	}
  	.blog_body {
- 		border-left:none;
+ 		width: 97%;
  	}
- 	.blog_body .blogtitle {
- 		border-left:.1em solid #979595;
- 		padding-left:.5em;
+ 	#left {
+ 		border-right: none;
+ 		width: 100%;
  	}
- 	nav a .topbuttons {
-	display:visible;
-	display:inline-block;
-	height:2.5em;
-	padding:1em;
+ 	.button_links {
+ 		margin-top: 1.2em;
+ 	}
+ }
+ @media only screen and (max-width: 485px) {
+ 	.button_links {
+ 		width: 35%;
+ 		padding: 1em;
+ 		display: block;
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 	}
+ 	#footer_section {
+		width: 80%;
 	}
-	/*.nav:hover {
-	background-color:rgba(232,161,156,.7);
-	}	*/
-}
-
-
-
-
+ }
